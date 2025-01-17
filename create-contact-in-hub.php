@@ -51,7 +51,7 @@ curl_setopt_array($curl, array(
             'email' => $email,
             'firstname' => $firstName,
             'lastname' => $lastName,
-            'phone' => $phoneNumber,
+            'phone number' => $phoneNumber,
             'zoho_id' => $zohoId,
         ),
     )),
