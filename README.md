@@ -8,6 +8,7 @@ Making two way integration between zoho to hubspot and vice-versa
 https://accounts.zoho.in/oauth/v2/auth?scope=ZohoCRM.modules.ALL,ZohoCRM.modules.contacts.ALL&client_id=<client id goes here>&response_type=code&redirect_uri=<redirect uri goes here > &access_type=offline
 4. get access token and refresh token and then get access token from refresh token . 
 5. Crud for contacts
+6. here is the link for create client application to get client-id and client secret (https://api-console.zoho.in/)
 
 
 *** Workflow for hubspot ***
@@ -40,4 +41,5 @@ https://accounts.zoho.in/oauth/v2/auth?scope=ZohoCRM.modules.ALL,ZohoCRM.modules
       "Phone Number": "${Contacts.Phone}",
       "Zoho_Id": "${Contacts.Contact Id}"
     }
-    
+
+
